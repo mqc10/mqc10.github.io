@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home (Thermal Measurements)</title>
+    <link rel="shortcut icon" href="file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/IMG/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Home (Thermal Measurements)_files/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Home (Thermal Measurements)_files/css2" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/index.html">HOME</a>
+            <a href="file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/monitoring.html">REAL-TIME MONITORING</a>
+            <a href="file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/bar.html">BAR GRAPH</a>
+            <a href="file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/lines.html">LINE GRAPH</a>
+            <a href="file:///Users/martinquintero/Desktop/Pagina%20Web%20tesis/loads.html">THERMAL LOADS</a>
+            <span class="indicador"></span>
+            
+        </nav>
+        <section class="textos-header">
+            <div class="img-container">
+                <img src="./Home (Thermal Measurements)_files/javeriana.png" width="500" height="150" alt="">
+            </div>
+            <h1>UNDERGRADUATE PROJECT</h1>
+            <h2>DESIGN AND IMPLEMENTATION OF THERMAL MEASUREMENT DEVICE TO CALCULATE THERMAL LOADS OF A VIS-TYPE HOUSE</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            // Get the button:
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+                 } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                 document.body.scrollTop = 0; // For Safari
+                 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+
+
+        <section class="contenedor about-us">
+            <h2 class="titulo">About The Project</h2>
+            <div class="contenedor-about-us">
+                <img src="./Home (Thermal Measurements)_files/casa.png" width="1000" height="300" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iusto ab assumenda nesciunt saepe quasi eos quos fugit qui iste iure animi pariatur, fuga excepturi rem! Asperiores autem placeat iure!</p>
+                    <h3><span>2</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iusto ab assumenda nesciunt saepe quasi eos quos fugit qui iste iure animi pariatur, fuga excepturi rem! Asperiores autem placeat iure!</p>
+
+                </div>
+            </div>
+
+            
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Measured Types of Heat</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="./Home (Thermal Measurements)_files/conduccion.jpeg" alt="">
+                        <h3>name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, tempora?</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="./Home (Thermal Measurements)_files/conveccion.png" alt="">
+                        <h3>name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, tempora?</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="./Home (Thermal Measurements)_files/radiacion.png" alt="">
+                        <h3>name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, tempora?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Name</h4>
+                <p>Martin Quintero</p>
+            </div>
+            <div class="content-foo">
+                <h4>University</h4>
+                <p>Pontificia Universidad Javeriana</p>
+            </div>
+            <div class="content-foo">
+                <h4>Career</h4>
+                <p>Mechanical and Electronic Engineering</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>mquintero10@javerianacali.edu.co</p>
+            </div>
+
+        </div>
+        <h2 class="titulo-final">© Designed by: Martin Quintero</h2>
+    </footer>
+
+</body></html>
