@@ -286,6 +286,12 @@ footer{
 }
 
 @media screen and (max-width:900px) {
+
+    .img-container {
+        width: 50%;
+        height: 50%;
+      }
+
     nav {
         text-align: center;   
     }
